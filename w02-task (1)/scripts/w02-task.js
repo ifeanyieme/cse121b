@@ -21,9 +21,9 @@ imageElement.setAttribute('alt', `Profile image of ${fullName}`);
 
 
 /* Step 4 - Array */
-const favFoods = ['Rice and Stew', 'Egusi and Semovita', 'Akara and Bread',
-'Irish Potato'];
-const singleFavoriteFood = 'Afang Soup';
+const favFoods = ['Bread and Tea', 'Nigeria Jellof', 'Fried Rice and Chicken',
+'Egusi Soup'];
+const singleFavoriteFood = 'Bread and Tea';
 favFoods.push(singleFavoriteFood);
 
 foodElement.innerHTML += favFoods.join('<br>');

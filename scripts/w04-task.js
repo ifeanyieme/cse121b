@@ -7,7 +7,7 @@ let myProfile = {
     favoriteFood: [
         "Tea and bread",
         "Egusi Soup",
-        "SPaghetti",
+        "Spaghetti",
         "Buns and Puff-Puff"
     ],
     hobbies: [

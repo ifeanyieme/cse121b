@@ -1,0 +1,100 @@
+/* Reset some default browser styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #0a0707;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+#toggleMenu {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Main container styles */
+#weatherApp {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #e9e9e7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 5, 10, 30);
+}
+
+/* Search container styles */
+#searchContainer {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#locationInput {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Current weather and forecast styles */
+#currentWeather, #forecast {
+    padding: 20px;
+    background-color: #8f8c8c;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Forecast item styles */
+#forecast div {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 0 5px;
+}
+
+/* Error message styles */
+#errorMessage {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Responsive design styles */
+@media (max-width: 600px) {
+    #forecast {
+        flex-direction: column;
+    }
+
+    #forecast div {
+        margin-bottom: 10px;
+    }
+}
